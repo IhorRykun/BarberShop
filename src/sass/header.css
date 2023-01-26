@@ -1,7 +1,8 @@
 .header {
   background-image: url(../images/header__img.png);
   height: 400px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .header__list {
@@ -11,13 +12,15 @@
 
 .header__item {
   margin-left: 40px;
-  &:first-child {
-    margin: 0;
-  }
 }
+.header__item:first-child {
+  margin: 0;
+}
+
 .header__item:first-child {
   margin-left: 0;
 }
+
 .heder__link {
   text-decoration: none;
-}
+}/*# sourceMappingURL=header.css.map */
