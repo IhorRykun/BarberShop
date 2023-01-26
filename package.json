@@ -2,20 +2,20 @@
   "name": "BarberShop",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ihorrykun.github.io/BarberShop/",
+  "homepage": "https://github.com/IhorRykun/BarberShop",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /BarberShop/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ihorrykun.github.io/BarberShop/"
+    "url": "git+https://github.com/IhorRykun/BarberShop"
   },
   "keywords": [],
   "author": "ihor rykun <ihorrykun@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://ihorrykun.github.io/BarberShop/"
+    "url": "https://github.com/IhorRykun/BarberShop"
   },
   "dependencies": {
     "bootstrap": "^5.3.0-alpha1",
