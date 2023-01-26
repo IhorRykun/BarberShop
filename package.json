@@ -2,7 +2,7 @@
   "name": "BarberShop",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/IhorRykun/BarberShop",
+  "homepage": "https://ihorrykun.github.io/BarberShop/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /BarberShop/"
