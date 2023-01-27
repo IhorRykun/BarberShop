@@ -1,8 +1,21 @@
 .header {
+  @media screen and(max-width:1279px) {
+    width: 768px;
+  }
   width: 1280px;
   color: #fff;
+  position: relative;
 }
 
+.link__logo:hover,
+.link__logo:focus {
+  fill: #ff6c00;
+}
+.logo__svg {
+  position: absolute;
+  top: 50px;
+  left: 32px;
+}
 .header__container {
   background-image: url(../images/header/header-1.png);
   height: 680px;
@@ -10,6 +23,7 @@
   background-repeat: no-repeat;
   margin-left: 155px;
   width: 100vw;
+  position: relative;
 }
 .header__container--flex {
   display: flex;
@@ -46,6 +60,11 @@
   transform: scale(1.1);
 }
 .header__list_phone {
+  @media screen and(max-width:1279px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-right: 39px;
+  }
   margin-top: 52px;
   display: flex;
   list-style: none;
@@ -65,9 +84,17 @@
 }
 
 .header__list__item-tel {
+  @media screen and(max-width:1279px) {
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
   margin-right: 40px;
 }
 .header__list__item-link {
+  @media screen and(max-width:1279px) {
+    margin-right: 0;
+  }
   margin-right: 75px;
 }
 .header__link--phone {
@@ -75,22 +102,36 @@
 }
 
 .container__text__title {
+  @media screen and(max-width:1279px) {
+    margin-top: 156px;
+    margin-left: 120px;
+  }
   margin-top: 180px;
   margin-left: 100px;
 }
 .text-location {
+  @media screen and(max-width:1279px) {
+    margin-left: 77px;
+  }
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   margin-left: 73px;
-
   letter-spacing: 0.1em;
   text-transform: uppercase;
 
   color: rgba(157, 164, 189, 0.6);
 }
 .text__title {
+  @media screen and(max-width:1279px) {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.05em;
+    line-height: 1.17;
+  }
   margin-top: 20px 0;
   font-style: normal;
   font-weight: 700;
@@ -102,6 +143,16 @@
 }
 
 .text__expert {
+  @media screen and(max-width:1279px) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+
+    letter-spacing: 0.02em;
+
+    color: #9da4bd;
+  }
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -110,4 +161,18 @@
   letter-spacing: 0.02em;
 
   color: #9da4bd;
+}
+.list__slider {
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+  display: flex;
+}
+.list__item {
+  margin-left: 55px;
+  margin-bottom: 49px;
+}
+
+.list__item:first-child {
+  margin-left: 0;
 }
