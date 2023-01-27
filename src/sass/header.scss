@@ -1,12 +1,27 @@
 .header {
-  background-image: url(../images/header__img.png);
-  height: 400px;
-  object-fit: contain;
+  width: 1280px;
+  color: #fff;
+}
+
+.header__container {
+  background-image: url(../images/header/header-1.png);
+  height: 680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 155px;
+  width: 100vw;
+}
+.header__container--flex {
+  display: flex;
+  align-items: baseline;
 }
 
 .header__list {
+  margin-top: 52px;
   display: flex;
   list-style: none;
+  color: inherit;
+  margin-left: 40px;
 }
 
 .header__item {
@@ -20,4 +35,79 @@
 }
 .heder__link {
   text-decoration: none;
+  list-style: none;
+  color: white;
+  display: block;
+}
+.heder__link:hover,
+.heder__link:focus {
+  text-decoration: none;
+  color: #ff6c00;
+  transform: scale(1.1);
+}
+.header__list_phone {
+  margin-top: 52px;
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  align-items: baseline;
+}
+.tel__link {
+  text-align: center;
+  width: 160px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  display: block;
+  padding-top: 5px;
+  color: white;
+}
+
+.header__list__item-tel {
+  margin-right: 40px;
+}
+.header__list__item-link {
+  margin-right: 75px;
+}
+.header__link--phone {
+  color: white;
+}
+
+.container__text__title {
+  margin-top: 180px;
+  margin-left: 100px;
+}
+.text-location {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  margin-left: 73px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: rgba(157, 164, 189, 0.6);
+}
+.text__title {
+  margin-top: 20px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.text__expert {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.17;
+
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
 }

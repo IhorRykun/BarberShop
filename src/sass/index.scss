@@ -1,5 +1,5 @@
-@import './base/vendors.scss';
+@import './base/vendors';
 @import './common';
 @import './header.scss';
-@import "about_us.scss";
-@import "./../../node_modules/bootstrap/scss/bootstrap";
+@import 'about_us.scss';
+@import './../../node_modules/bootstrap/scss/bootstrap';
