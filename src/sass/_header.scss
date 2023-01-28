@@ -5,18 +5,54 @@
   width: 1280px;
   color: #fff;
   position: relative;
-  padding-left: 155px;
+  padding: 0 15px;
 }
 
 .link__logo:hover,
 .link__logo:focus {
   fill: #ff6c00;
 }
+
 .logo__svg {
   position: absolute;
   top: 50px;
   left: 32px;
 }
+
+.social__link__list {
+  position: absolute;
+  bottom: 140px;
+  left: -68px;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  transform: rotate(-90deg);
+}
+.social__link__list::before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background: #303030;
+  display: block;
+}
+.social__link__item {
+  color: #303030;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.2em;
+
+  color: #303030;
+}
+.social__link__item:hover,
+.social__link__item:focus {
+  color: #ff6c00;
+  text-decoration: none;
+}
+
 .header__container {
   background-image: url(../images/header/header-1.png);
   background-size: cover;
@@ -24,7 +60,9 @@
   width: 1125px;
   position: relative;
   height: 680px;
+  margin-left: 155px;
 }
+
 .header__container--flex {
   display: flex;
   align-items: baseline;
@@ -113,6 +151,7 @@
   @media screen and(max-width:1279px) {
     margin-left: 77px;
   }
+  position: relative;
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -122,6 +161,17 @@
   text-transform: uppercase;
 
   color: rgba(157, 164, 189, 0.6);
+}
+
+.text-location::after {
+  position: absolute;
+  top: 6px;
+  left: -76px;
+  content: '';
+  width: 53px;
+  height: 1px;
+  display: block;
+  background: rgba(157, 164, 189, 0.6);
 }
 .text__title {
   @media screen and(max-width:1279px) {
@@ -164,15 +214,42 @@
 }
 .list__slider {
   position: absolute;
-  bottom: 0;
-  right: 12px;
+  bottom: 40px;
+  right: 55px;
   display: flex;
 }
 .list__item {
+  position: relative;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  text-align: right;
+  letter-spacing: 0.1em;
+
+  color: rgba(157, 164, 189, 0.6);
   margin-left: 55px;
-  margin-bottom: 49px;
+  cursor: pointer;
+}
+
+.list__item:hover,
+.list__item:focus {
+  color: #fff;
 }
 
 .list__item:first-child {
   margin-left: 0;
+}
+.list__item::after {
+  position: absolute;
+  left: 0;
+  top: 24px;
+  content: '';
+  width: 60px;
+  height: 1px;
+  display: block;
+  letter-spacing: 0.1em;
+
+  background-color: rgba(157, 164, 189, 0.6);
 }
