@@ -2,10 +2,11 @@
   @media screen and(max-width:1279px) {
     width: 768px;
   }
-  width: 1280px;
+  width: 1512px;
   color: #fff;
   position: relative;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .link__logo:hover,
@@ -59,9 +60,10 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  width: 100vw;
   height: 680px;
+  margin: 0 auto;
   margin-left: 155px;
+  width: 1340px;
 }
 
 .header__container--flex {
