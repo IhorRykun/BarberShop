@@ -1,22 +1,19 @@
-.header {
-  @media screen and(max-width:1279px) {
-    width: 768px;
-  }
-  width: 1250px;
+.header_position {
+  margin-left: 155px;
   color: #fff;
   position: relative;
-  padding: 0 15px;
-  margin: 0 auto;
+  padding: 40px 15px;
+  margin-left: 155px;
+  background-image: url(../images/header/header-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px;
 }
 
-.logo__svg {
-  position: absolute;
-  top: 50px;
-  left: 32px;
-  display: block;
-}
 .link__logo {
-  display: block;
+  position: absolute;
+  left: -101px;
+  top: 30px;
 }
 
 .link__logo:hover,
@@ -28,13 +25,14 @@
 .social__link__list {
   position: absolute;
   bottom: 140px;
-  left: -68px;
+  left: -200px;
   color: black;
   display: flex;
   align-items: center;
   gap: 40px;
   transform: rotate(-90deg);
 }
+
 .social__link__list::before {
   content: '';
   width: 60px;
@@ -42,6 +40,7 @@
   background: #303030;
   display: block;
 }
+
 .social__link__item {
   color: #303030;
   font-style: normal;
@@ -53,6 +52,7 @@
 
   color: #303030;
 }
+
 .social__link__item:hover,
 .social__link__item:focus {
   color: #ff6c00;
@@ -61,15 +61,8 @@
 }
 
 .header__container {
-  background-image: url(../images/header/header-1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   position: relative;
-  height: 680px;
-  margin: 0 auto;
-  margin-left: 155px;
-  width: 100vw;
+  margin: 0;
 }
 
 .header__container--flex {
@@ -78,7 +71,6 @@
 }
 
 .header__list {
-  margin-top: 52px;
   display: flex;
   list-style: none;
   color: inherit;
@@ -91,15 +83,18 @@
     margin: 0;
   }
 }
+
 .header__item:first-child {
   margin-left: 0;
 }
+
 .heder__link {
   text-decoration: none;
   list-style: none;
   color: white;
   display: block;
 }
+
 .heder__link:hover,
 .heder__link:focus {
   text-decoration: none;
@@ -107,18 +102,19 @@
   transform: scale(1.1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header__list_phone {
   @media screen and(max-width:1279px) {
     flex-direction: column-reverse;
     align-items: center;
     margin-right: 39px;
   }
-  margin-top: 52px;
   display: flex;
   list-style: none;
   margin-left: auto;
   align-items: baseline;
 }
+
 .tel__link {
   text-align: center;
   width: 160px;
@@ -224,7 +220,7 @@
 }
 .list__slider {
   position: absolute;
-  bottom: 40px;
+  bottom: -210px;
   right: 55px;
   display: flex;
 }
