@@ -1,6 +1,6 @@
-@import './base/vendors';
-@import './../../node_modules/bootstrap/scss/bootstrap';
 @import './common';
+@import './../../node_modules/bootstrap/scss/bootstrap';
+@import './base/vendors';
 @import './header.scss';
 @import './_about_us.scss';
 @import './_services.scss';
