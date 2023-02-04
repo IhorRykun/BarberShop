@@ -1,5 +1,10 @@
 .services {
-  background-image: url(../images/services/img.jpg);
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../images/services/img.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
