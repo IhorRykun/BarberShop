@@ -35,3 +35,19 @@
 .list__img {
   margin-right: 30px;
 }
+
+.list__img:last-child {
+  margin-right: 0;
+}
+
+.list__name__barber {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 138.888889%; /* 25/18 */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #303030;
+}
