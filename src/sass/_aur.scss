@@ -18,7 +18,7 @@
   color: #303030;
 }
 
-.ur__title {
+.our__title {
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
@@ -29,10 +29,9 @@
   margin-bottom: 44px;
 }
 
-.our__list--img {
+.container__wraper {
   display: flex;
 }
-
-.our__list--item {
-  gap: 30px;
+.list__img {
+  margin-right: 30px;
 }
