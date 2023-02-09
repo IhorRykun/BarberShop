@@ -1,9 +1,8 @@
-.top_footer{
-  background: #191C26;
+.top_footer {
+  background: #191c26;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 130px 0;
 }
 //.img_bg_footer{
 //  background-image: linear-gradient(
@@ -17,25 +16,27 @@
 //  background-position: center;
 //  background-size: cover;
 //}
-.content_footer{
-
+.content_footer {
 }
 
-.form_footer{
+.form_footer {
+  padding-top: 130px;
+  padding-bottom: 193px;
   padding-right: 40px;
+  padding-left: 59px;
   flex: 1 1 100%;
 }
-.h1_footer{
+.h1_footer {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 42px;
   line-height: 49px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 30px;
 }
-.name_phone{
+.name_phone {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
@@ -43,29 +44,29 @@
   line-height: 15px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 44px;
 }
- #name{
-   background-color: transparent;
-   width: 100%;
-   max-width: 270px;
-   border: unset;
-   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
-   margin-right: 26px;
-   padding: 0;
-   color: #FFFFFF;
- }
- #phone{
-   background: none;
-   width: 100%;
-   max-width: 255px;
-   border: none;
-   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
-   padding: 0;
-   color: #FFFFFF;
- }
-#message{
+#name {
+  background-color: transparent;
+  width: 100%;
+  max-width: 270px;
+  border: unset;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  margin-right: 26px;
+  padding: 0;
+  color: #ffffff;
+}
+#phone {
+  background: none;
+  width: 100%;
+  max-width: 255px;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  padding: 0;
+  color: #ffffff;
+}
+#message {
   background: none;
   width: 100%;
   height: 60px;
@@ -73,9 +74,9 @@
   border: none;
   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
   padding: 0;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.label_message{
+.label_message {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
@@ -85,34 +86,43 @@
   text-transform: uppercase;
   color: rgba(157, 164, 189, 0.4);
 }
-.message_form{
+.message_form {
   margin-bottom: 44px;
 }
-.contacts_footer{
+.contacts_footer {
   flex: 1 1 100%;
 }
-.content_contacts_footer{
+.content_contacts_footer {
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(../images/footer/footer_img.jpg);
+  padding: 130px 0;
   padding-left: 100px;
+  width: 625px;
+  background-color: #191c26;
 }
-.icon_map{
- padding-top: 5px;
+.icon_map {
+  padding-top: 5px;
 }
-.location_footer{
+.location_footer {
   margin-bottom: 20px;
 }
-.address_footer{
+.address_footer {
   margin-left: 21px;
   width: 100%;
-  max-width: 225px;;
+  max-width: 225px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.02em;
-  color: #9DA4BD;
+  color: #9da4bd;
 }
-.phone_wrap{
+.phone_wrap {
   margin-bottom: 20px;
   font-family: 'Open Sans';
   font-style: normal;
@@ -120,22 +130,22 @@
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.02em;
-  color: #9DA4BD;
+  color: #9da4bd;
 }
-.phone_text{
+.phone_text {
   margin-left: 19px;
 }
-.mail_footer{
+.mail_footer {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.02em;
-  color: #9DA4BD;
+  color: #9da4bd;
   margin-bottom: 70px;
 }
-.mail_text{
+.mail_text {
   margin-left: 19px;
   text-decoration-line: underline;
 }
@@ -145,7 +155,7 @@
   width: 100%;
   height: 9px;
 }
-.p_1_decor_footer{
+.p_1_decor_footer {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
@@ -153,19 +163,19 @@
   line-height: 15px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 20px;
 }
-.time_text{
+.time_text {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.02em;
-  color: #9DA4BD;
+  color: #9da4bd;
 }
-.bottom_footer{
+.bottom_footer {
   padding: 56px 0;
 }
 .social__link__list_footer {
@@ -173,10 +183,10 @@
   //bottom: 140px;
   //left: -200px;
   color: black;
-//  display: flex;
+  //  display: flex;
   align-items: center;
   gap: 40px;
-//  transform: rotate(-90deg);
+  //  transform: rotate(-90deg);
 }
 
 .social__link__list_footer::before {
