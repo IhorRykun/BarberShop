@@ -1,14 +1,16 @@
 .header_position {
-  @media screen and(max-width:767px) {
+  @media screen and (max-width: 767px) {
     margin-left: 0;
     padding: 40px 31px;
     padding-bottom: 183px;
-    height: auto;
+    max-width: 450px;
+    width: 100%;
   }
 
-  @media screen and(max-width:1279px) {
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
     margin-left: 159px;
   }
+
   margin-left: 155px;
   color: #fff;
   position: relative;
@@ -20,7 +22,7 @@
 }
 
 .link__logo {
-  @media screen and(max-width:767px) {
+  @media screen and (max-width: 767px) {
     left: 31px;
     top: 40px;
   }
@@ -30,7 +32,7 @@
 }
 
 .logo__svg {
-  @media screen and(max-width:767px) {
+  @media screen and (max-width: 767px) {
     fill: #fff;
   }
 }
@@ -42,7 +44,7 @@
 }
 
 .social__link__list {
-  @media screen and(max-width:767px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
   position: absolute;
@@ -88,7 +90,7 @@
 }
 
 .header__container--flex {
-  @media screen and(max-width:767px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
   display: flex;
@@ -129,7 +131,7 @@
 }
 
 .header__list_phone {
-  @media screen and(max-width:1279px) {
+  @media screen and (max-width: 1279px) {
     flex-direction: column-reverse;
     align-items: center;
     margin-right: 39px;
