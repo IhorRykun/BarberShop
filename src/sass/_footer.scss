@@ -37,6 +37,7 @@
   margin-bottom: 30px;
 }
 .name_phone {
+  display: flex;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
@@ -49,8 +50,8 @@
 }
 #name {
   background-color: transparent;
-  width: 100%;
   max-width: 270px;
+  width: 100%;
   border: unset;
   border-bottom: 1px solid rgba(157, 164, 189, 0.4);
   margin-right: 26px;
