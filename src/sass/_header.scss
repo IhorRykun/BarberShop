@@ -5,7 +5,7 @@
     padding-bottom: 183px;
     max-width: 450px;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -174,7 +174,11 @@
 }
 
 .container__text__title {
-  @media screen and(max-width:1279px) {
+  @media screen and (max-width: 767px) {
+    margin-top: 112px;
+    margin-left: 0;
+  }
+  @media screen and(min-width:768px) {
     margin-top: 156px;
     margin-left: 120px;
   }
@@ -182,7 +186,10 @@
   margin-left: 100px;
 }
 .text-location {
-  @media screen and(max-width:1279px) {
+  @media screen and(max-width:767px) {
+  }
+
+  @media screen and(min-width:768px) {
     margin-left: 77px;
   }
   position: relative;
@@ -208,7 +215,16 @@
   background: rgba(157, 164, 189, 0.6);
 }
 .text__title {
-  @media screen and(max-width:1279px) {
+  @media screen and (max-width: 767px) {
+    color: #fff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    margin: 20px 0;
+  }
+  @media screen and (min-width: 768px) {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
