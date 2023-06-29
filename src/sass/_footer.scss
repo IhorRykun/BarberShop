@@ -19,6 +19,12 @@
 .content_footer {
 }
 
+.footer__block {
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+  display: flex;
+}
 .form_footer {
   padding-top: 130px;
   padding-bottom: 193px;
@@ -180,6 +186,9 @@
   color: #9da4bd;
 }
 .bottom_footer {
+  @media screen and (max-width: 767px) {
+    padding: 44px 31px;
+  }
   padding: 56px 0;
 }
 .social__link__list_footer {
