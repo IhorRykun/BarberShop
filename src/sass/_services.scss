@@ -45,6 +45,10 @@
   margin-bottom: 44px;
 }
 .block_services {
+  @media screen and (min-width: 767px) {
+    display: block;
+  }
+  display: flex;
   margin-bottom: 50px;
   font-family: 'Open Sans';
   font-style: normal;
