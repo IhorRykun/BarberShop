@@ -45,7 +45,7 @@
   margin-bottom: 44px;
 }
 .block_services {
-  @media screen and (min-width: 767px) {
+  @media screen and (max-width: 767px) {
     display: block;
   }
   display: flex;
@@ -78,13 +78,22 @@
   transform: scale(1.1);
 }
 .btn_services {
+  font-size: 12px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
   text-align: center;
   width: 160px;
-  height: 40px;
   background-color: transparent;
   border: 1px solid #ff6c00;
   border-radius: 25px;
   display: block;
   padding-top: 5px;
   color: #ffffff;
+  margin: 0;
+  display: block;
+  padding: 12px 0;
 }
