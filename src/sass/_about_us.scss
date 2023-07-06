@@ -15,6 +15,13 @@
   margin: 0 auto;
   padding: 0 55px;
 }
+
+.cont_about_us {
+  @media screen and (max-width: 767px) {
+  }
+  display: flex;
+  
+}
 .left_about_us {
   @media screen and (max-width: 767px) {
     display: none;
